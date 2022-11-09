@@ -1,6 +1,6 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
-switch-to-activity-82dd571b-19a5-41da-b9fa-e65d403c625b=none,none,Switch to activity "Default"
+switch-to-activity-82dd571b-19a5-41da-b9fa-e65d403c625b=none,none,Switch to activity "Padrão"
 
 [KDE Keyboard Layout Switcher]
 Switch to Next Keyboard Layout=Meta+Alt+K,none,Switch to Next Keyboard Layout
@@ -44,7 +44,7 @@ mute=Alt+M\tVolume Mute,Volume Mute,Mute
 
 [ksmserver]
 Halt Without Confirmation=none,,Halt Without Confirmation
-Lock Session=\tScreensaver,Meta+L\tScreensaver,Lock Session
+Lock Session=Screensaver,Meta+L\tScreensaver,Lock Session
 Log Out=Alt+Shift+X\tCtrl+Alt+Del,Ctrl+Alt+Del,Log Out
 Log Out Without Confirmation=none,,Log Out Without Confirmation
 Reboot Without Confirmation=none,,Reboot Without Confirmation
@@ -200,10 +200,14 @@ view_actual_size=Meta+0,Meta+0,Zoom to Actual Size
 view_zoom_in=Meta++\tMeta+=,Meta++,Zoom In
 view_zoom_out=Meta+-,Meta+-,Zoom Out
 
+[kwrite.desktop]
+_k_friendly_name=kwrite
+_launch=Alt+Shift+E,none,kwrite
+
 [lattedock]
 _k_friendly_name=Latte Dock
-activate entry 1=,Meta+1,Activate Entry 1
-activate entry 10=,Meta+0,Activate Entry 10
+activate entry 1=none,Meta+1,Activate Entry 1
+activate entry 10=none,Meta+0,Activate Entry 10
 activate entry 11=none,Meta+Z,Activate Entry 11
 activate entry 12=none,Meta+X,Activate Entry 12
 activate entry 13=none,Meta+C,Activate Entry 13
@@ -212,32 +216,32 @@ activate entry 15=none,Meta+B,Activate Entry 15
 activate entry 16=none,Meta+N,Activate Entry 16
 activate entry 17=none,Meta+M,Activate Entry 17
 activate entry 18=none,Meta+\\,,Activate Entry 18
-activate entry 19=,Meta+.,Activate Entry 19
-activate entry 2=,Meta+2,Activate Entry 2
-activate entry 3=,Meta+3,Activate Entry 3
-activate entry 4=,Meta+4,Activate Entry 4
-activate entry 5=,Meta+5,Activate Entry 5
-activate entry 6=,Meta+6,Activate Entry 6
-activate entry 7=,Meta+7,Activate Entry 7
-activate entry 8=,Meta+8,Activate Entry 8
-activate entry 9=,Meta+9,Activate Entry 9
-clear-history=,,Clear Clipboard History
-clipboard_action=,Meta+Ctrl+X,Automatic Action Popup Menu
-cycleNextAction=,,Next History Item
-cyclePrevAction=,,Previous History Item
-edit_clipboard=,,Edit Contents…
-new instance for entry 1=,Meta+Ctrl+1,New Instance for Entry 1
+activate entry 19=none,Meta+.,Activate Entry 19
+activate entry 2=none,Meta+2,Activate Entry 2
+activate entry 3=none,Meta+3,Activate Entry 3
+activate entry 4=none,Meta+4,Activate Entry 4
+activate entry 5=none,Meta+5,Activate Entry 5
+activate entry 6=none,Meta+6,Activate Entry 6
+activate entry 7=none,Meta+7,Activate Entry 7
+activate entry 8=none,Meta+8,Activate Entry 8
+activate entry 9=none,Meta+9,Activate Entry 9
+clear-history=none,,Clear Clipboard History
+clipboard_action=none,Meta+Ctrl+X,Automatic Action Popup Menu
+cycleNextAction=none,,Next History Item
+cyclePrevAction=none,,Previous History Item
+edit_clipboard=none,,Edit Contents…
+new instance for entry 1=none,Meta+Ctrl+1,New Instance for Entry 1
 new instance for entry 10=none,Meta+Ctrl+0,New Instance for Entry 10
 new instance for entry 11=none,Meta+Ctrl+Z,New Instance for Entry 11
 new instance for entry 12=none,Meta+Ctrl+X,New Instance for Entry 12
 new instance for entry 13=none,Meta+Ctrl+C,New Instance for Entry 13
 new instance for entry 14=none,Meta+Ctrl+V,New Instance for Entry 14
 new instance for entry 15=none,Meta+Ctrl+B,New Instance for Entry 15
-new instance for entry 16=,Meta+Ctrl+N,New Instance for Entry 16
-new instance for entry 17=,Meta+Ctrl+M,New Instance for Entry 17
+new instance for entry 16=none,Meta+Ctrl+N,New Instance for Entry 16
+new instance for entry 17=none,Meta+Ctrl+M,New Instance for Entry 17
 new instance for entry 18=none,Meta+Ctrl+\\,,New Instance for Entry 18
 new instance for entry 19=none,Meta+Ctrl+.,New Instance for Entry 19
-new instance for entry 2=,Meta+Ctrl+2,New Instance for Entry 2
+new instance for entry 2=none,Meta+Ctrl+2,New Instance for Entry 2
 new instance for entry 3=none,Meta+Ctrl+3,New Instance for Entry 3
 new instance for entry 4=none,Meta+Ctrl+4,New Instance for Entry 4
 new instance for entry 5=none,Meta+Ctrl+5,New Instance for Entry 5
@@ -246,15 +250,11 @@ new instance for entry 7=none,Meta+Ctrl+7,New Instance for Entry 7
 new instance for entry 8=none,Meta+Ctrl+8,New Instance for Entry 8
 new instance for entry 9=none,Meta+Ctrl+9,New Instance for Entry 9
 repeat_action=none,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
-show latte global settings=,,Show Latte Global Settings
+show latte global settings=none,,Show Latte Global Settings
 show latte view=none,Meta+`,Show Latte Dock/Panel
 show view settings=none,Meta+A,Cycle Through Dock/Panel Settings Windows
-show-barcode=,,Show Barcode…
-show-on-mouse-pos=,Meta+V,Open Klipper at Mouse Position
-
-[kwrite.desktop]
-_k_friendly_name=kwrite
-_launch=Alt+Shift+E,none,kwrite
+show-barcode=none,,Show Barcode…
+show-on-mouse-pos=none,Meta+V,Open Klipper at Mouse Position
 
 [org.kde.dolphin.desktop]
 _k_friendly_name=Dolphin
@@ -297,7 +297,7 @@ _k_friendly_name=pcmanfm-qt
 _launch=Alt+Shift+F,none,pcmanfm-qt
 
 [plasmashell]
-_k_friendly_name=Plasma
+_k_friendly_name=Latte Dock
 activate task manager entry 1=Meta+1,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=none,Meta+0,Activate Task Manager Entry 10
 activate task manager entry 2=Meta+2,Meta+2,Activate Task Manager Entry 2
@@ -308,18 +308,18 @@ activate task manager entry 6=Meta+6,Meta+6,Activate Task Manager Entry 6
 activate task manager entry 7=Meta+7,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
-clear-history=none,,Clear Clipboard History
+clear-history=none,none,Clear Clipboard History
 clipboard_action=none,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
-cycleNextAction=none,,Next History Item
-cyclePrevAction=none,,Previous History Item
-edit_clipboard=none,,Edit Contents…
+cycleNextAction=none,none,Next History Item
+cyclePrevAction=none,none,Previous History Item
+edit_clipboard=none,none,Edit Contents…
 manage activities=Alt+Shift+W,Meta+Q,Show Activity Switcher
 next activity=none,none,Walk through activities
 previous activity=none,none,Walk through activities (Reverse)
 repeat_action=Meta+Ctrl+R,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
 show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
-show-barcode=none,,Show Barcode…
+show-barcode=none,none,Show Barcode…
 show-on-mouse-pos=Meta+V,Meta+V,Open Klipper at Mouse Position
 stop current activity=none,Meta+S,Stop Current Activity
 switch to next activity=Alt+Tab,,Switch to Next Activity
