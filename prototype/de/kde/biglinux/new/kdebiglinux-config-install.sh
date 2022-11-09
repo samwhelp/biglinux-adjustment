@@ -7,6 +7,10 @@ set -e
 ### Head: kdebiglinux
 ##
 kdebiglinux_config_install () {
+	kdebiglinux_config_install_kde_keybind
+}
+
+kdebiglinux_config_install_kde_keybind () {
 
 	echo "## Config: kdebiglinux"
 	echo

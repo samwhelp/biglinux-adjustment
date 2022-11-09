@@ -7,6 +7,10 @@ set -e
 ### Head: kde
 ##
 kde_config_install () {
+	kde_config_install_kde_keybind
+}
+
+kde_config_install_kde_keybind () {
 
 	echo "## Config: kde"
 	echo
