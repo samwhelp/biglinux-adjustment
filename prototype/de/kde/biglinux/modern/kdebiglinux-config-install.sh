@@ -44,8 +44,8 @@ kdebiglinux_config_install_kde_launcher () {
 	echo "##"
 	echo
 
-	if ! [ -d "$HOME/.kdebiglinux/classic" ]; then
-		echo "Dir Not Exist:" "$HOME/.kdebiglinux/classic"
+	if ! [ -d "$HOME/.kdebiglinux/modern" ]; then
+		echo "Dir Not Exist:" "$HOME/.kdebiglinux/modern"
 		return
 	fi
 
