@@ -82,7 +82,7 @@ kdebiglinux_config_install_kde_wallpaper () {
 
 	echo
 	echo "##"
-	echo "## Config: kde_config_install_kde_wallpaper"
+	echo "## Config: kdebiglinux_config_install_kde_wallpaper"
 	echo "##"
 	echo
 
