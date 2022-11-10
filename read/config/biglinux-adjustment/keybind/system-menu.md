@@ -49,4 +49,5 @@ grand_parent: Config
 
 | Keybind           | Action        | Command             |
 | ----------------- | ------------ | -------------------- |
-| `Alt + F2`  | 執行 krunner | `krunner` |
+| `Alt + F2`  | run krunner | `krunner` |
+| `Alt + Shift + d`  | run krunner | `krunner` |
