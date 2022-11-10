@@ -2,7 +2,7 @@
 title: Window Control
 nav_order: 5020
 has_children: false
-parent: biglinux-adjustment
+parent: BigLinux Adjustment
 grand_parent: Config
 ---
 

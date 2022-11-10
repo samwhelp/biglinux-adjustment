@@ -2,7 +2,7 @@
 title: Keybind
 nav_order: 2030
 has_children: false
-parent: biglinux-adjustment
+parent: BigLinux Adjustment
 grand_parent: Config
 ---
 

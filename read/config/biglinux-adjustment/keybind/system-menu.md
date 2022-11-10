@@ -2,7 +2,7 @@
 title: System Menu
 nav_order: 5002
 has_children: false
-parent: biglinux-adjustment
+parent: BigLinux Adjustment
 grand_parent: Config
 ---
 

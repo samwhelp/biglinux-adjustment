@@ -2,7 +2,7 @@
 title: Launch Favorite Application
 nav_order: 5013
 has_children: false
-parent: biglinux-adjustment
+parent: BigLinux Adjustment
 grand_parent: Config
 ---
 

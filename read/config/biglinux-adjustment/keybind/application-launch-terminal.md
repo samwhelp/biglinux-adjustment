@@ -2,7 +2,7 @@
 title: Launch Terminal
 nav_order: 5010
 has_children: false
-parent: biglinux-adjustment
+parent: BigLinux Adjustment
 grand_parent: Config
 ---
 

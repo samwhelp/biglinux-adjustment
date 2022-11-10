@@ -1,12 +1,12 @@
 ---
-title: biglinux-adjustment
+title: BigLinux Adjustment
 nav_order: 2021
 has_children: true
 parent: Config
 ---
 
 
-# biglinux-adjustment
+# BigLinux Adjustment
 
 
 ## Keybind
