@@ -1,9 +1,12 @@
 
+# KDE / Config
 
 ## Path
 
+### Keybind
+
 | Path |
 | --- |
-| [~/.config/kglobalshortcutsrc](kglobalshortcutsrc) |
-| ~/.kdebiglinux/modern/kglobalshortcutsrc |
-| /usr/share/biglinux/kdebiglinux/modern/kglobalshortcutsrc |
+| [~/.config/kglobalshortcutsrc](config/kde/kglobalshortcutsrc) |
+| ~/.kdebiglinux/classic/kglobalshortcutsrc |
+| /usr/share/biglinux/kdebiglinux/classic/kglobalshortcutsrc |
