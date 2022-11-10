@@ -13,7 +13,10 @@ kdebiglinux_config_install () {
 
 kdebiglinux_config_install_kde_keybind () {
 
-	echo "## Config: kdebiglinux"
+	echo
+	echo "##"
+	echo "## Config: kdebiglinux_config_install_kde_keybind"
+	echo "##"
 	echo
 
 

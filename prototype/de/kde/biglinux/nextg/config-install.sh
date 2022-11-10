@@ -13,8 +13,12 @@ kde_config_install () {
 
 kde_config_install_kde_keybind () {
 
-	echo "## Config: kde"
 	echo
+	echo "##"
+	echo "## Config: kde_config_install_kde_keybind"
+	echo "##"
+	echo
+
 
 	echo "mkdir -p $HOME/.config/"
 	mkdir -p "$HOME/.config/"

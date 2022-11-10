@@ -16,9 +16,10 @@ kdebiglinux_config_install_kde_keybind () {
 
 	echo
 	echo "##"
-	echo "## Config: kdebiglinux_config_install_kde_launcher"
+	echo "## Config: kdebiglinux_config_install_kde_keybind"
 	echo "##"
 	echo
+
 
 	if ! [ -d "${HOME}/.kdebiglinux/new" ]; then
 		echo "Dir Not Exist:" "${HOME}/.kdebiglinux/new"
