@@ -14,10 +14,10 @@ grand_parent: Config
 
 ## Favorite Application
 
-* [config snippet / dolphin](https://github.com/samwhelp/biglinux-adjustment/blob/main/prototype/keybind/kdebiglinux/modern/kglobalshortcutsrc#L269-L271)
-* [config snippet / pcmanfm-qt](https://github.com/samwhelp/biglinux-adjustment/blob/main/prototype/keybind/kdebiglinux/modern/kglobalshortcutsrc#L269-L271)
-* [config snippet / kwrite](https://github.com/samwhelp/biglinux-adjustment/blob/main/prototype/keybind/kdebiglinux/modern/kglobalshortcutsrc#L273-L275)
-* [config snippet / brave-browser](https://github.com/samwhelp/biglinux-adjustment/blob/main/prototype/keybind/kdebiglinux/modern/kglobalshortcutsrc#L13-L17)
+* [config snippet / dolphin](https://github.com/samwhelp/biglinux-adjustment/blob/main/prototype/keybind/kdebiglinux/modern/kglobalshortcutsrc#L207-L209)
+* [config snippet / pcmanfm-qt](https://github.com/samwhelp/biglinux-adjustment/blob/main/prototype/keybind/kdebiglinux/modern/kglobalshortcutsrc#L249-L251)
+* [config snippet / kwrite](https://github.com/samwhelp/biglinux-adjustment/blob/main/prototype/keybind/kdebiglinux/modern/kglobalshortcutsrc#L203-L205)
+* [config snippet / brave-browser](https://github.com/samwhelp/biglinux-adjustment/blob/main/prototype/keybind/kdebiglinux/modern/kglobalshortcutsrc#L9-L13)
 
 | Keybind          | Action           | Command     |
 | ----------------- | -------------- | ------------ |

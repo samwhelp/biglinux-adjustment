@@ -14,19 +14,24 @@ grand_parent: Config
 
 ## Normal
 
-* [config snippet](https://github.com/samwhelp/biglinux-adjustment/blob/main/prototype/keybind/kdebiglinux/modern/kglobalshortcutsrc#L277-#L281)
+* [config snippet / sakura](https://github.com/samwhelp/biglinux-adjustment/blob/main/prototype/keybind/kdebiglinux/modern/kglobalshortcutsrc#L283-L285)
 
 | Keybind          | Action         | Command                     |
 | ----------------- | ------------- | --------------------------- |
 | `Alt + Enter`     | Launch Terminal | `sakura`                 |
 | `Alt + Shift + a` | Launch Terminal | `sakura`                 |
+
+* [config snippet / konsole](https://github.com/samwhelp/biglinux-adjustment/blob/main/prototype/keybind/kdebiglinux/modern/kglobalshortcutsrc#L211-L215)
+
+| Keybind          | Action         | Command                     |
+| ----------------- | ------------- | --------------------------- |
 | `Alt + Shift + t`  | Launch Terminal | `konsole`                 |
 | `Alt + Ctrl + t`  | Launch Terminal | `konsole`                 |
 
 
 ## Dropdown
 
-* [config snippet](https://github.com/samwhelp/biglinux-adjustment/blob/main/prototype/keybind/kdebiglinux/modern/kglobalshortcutsrc#L359-L361)
+* [config snippet](https://github.com/samwhelp/biglinux-adjustment/blob/main/prototype/keybind/kdebiglinux/modern/kglobalshortcutsrc#L298-L300)
 
 | Keybind          | Action                      | Command                     |
 | ----------------- | ------------------------- | ---------------------------- |
