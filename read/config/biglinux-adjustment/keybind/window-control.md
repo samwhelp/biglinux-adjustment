@@ -142,4 +142,4 @@ grand_parent: Config
 
 | Keybind  | Action       | Command                      |
 | --------- | ---------- | ----------------------------- |
-| `Win + m` | Move Window to Center | `MoveWindowToCenter` |
+| `Win + m` | Move Window to the Center | `Window Move Center` |
