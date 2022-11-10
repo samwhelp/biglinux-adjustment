@@ -20,6 +20,7 @@ grand_parent: Config
 | ----------------- | ------------- | --------------------------- |
 | `Alt + Enter`     | Launch Terminal | `sakura`                 |
 | `Alt + Shift + a` | Launch Terminal | `sakura`                 |
+| `Alt + Shift + t`  | Launch Terminal | `konsole`                 |
 | `Alt + Ctrl + t`  | Launch Terminal | `konsole`                 |
 
 
