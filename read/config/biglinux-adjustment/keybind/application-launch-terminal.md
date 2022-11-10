@@ -18,8 +18,8 @@ grand_parent: Config
 
 | Keybind          | Action         | Command                     |
 | ----------------- | ------------- | --------------------------- |
-| `Alt + Enter`     | Launch Terminal | `konsole`                 |
-| `Alt + Shift + a` | Launch Terminal | `konsole`                 |
+| `Alt + Enter`     | Launch Terminal | `sakura`                 |
+| `Alt + Shift + a` | Launch Terminal | `sakura`                 |
 | `Alt + Ctrl + t`  | Launch Terminal | `konsole`                 |
 
 
