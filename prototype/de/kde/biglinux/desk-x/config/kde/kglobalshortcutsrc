@@ -260,6 +260,12 @@ show-on-mouse-pos=none,Meta+V,Open Klipper at Mouse Position
 _k_friendly_name=Dolphin
 _launch=Alt+Shift+G,Meta+E,Dolphin
 
+[org.kde.konsole.desktop]
+NewTab=none,none,Open a New Tab
+NewWindow=none,none,Open a New Window
+_k_friendly_name=Konsole
+_launch=Ctrl+Alt+T\tAlt+Shift+T,Ctrl+Alt+T,Konsole
+
 [org.kde.krunner.desktop]
 RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents
 _k_friendly_name=KRunner
@@ -343,4 +349,4 @@ _k_friendly_name=Wacom Tablet
 
 [yakuake]
 _k_friendly_name=Yakuake
-toggle-window-state=F12\tMeta+F2,F12,Open/Retract Yakuake
+toggle-window-state=Alt+Shift+Y\tF12\tMeta+F2,F12,Open/Retract Yakuake
