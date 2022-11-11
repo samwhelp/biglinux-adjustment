@@ -14,21 +14,21 @@ grand_parent: Config
 
 ## Toggle Show Desktop
 
-* [config snippet](https://github.com/samwhelp/biglinux-adjustment/blob/main/prototype/keybind/kdebiglinux/modern/kglobalshortcutsrc#L74)
+* [config snippet](https://github.com/samwhelp/biglinux-adjustment/blob/main/prototype/keybind/kdebiglinux/modern/kglobalshortcutsrc#L71)
 
 | Keybind           | Action        | Command             |
 | ----------------- | ------------ | -------------------- |
-| `Win + d`  | Toggle Show Desktop |  |
+| `Win + d`  | Toggle Show Desktop | `Show Desktop` |
 
 
 ## Logout
 
-* [config snippet](https://github.com/samwhelp/biglinux-adjustment/blob/main/prototype/keybind/kdebiglinux/modern/kglobalshortcutsrc#L50)
+* [config snippet](https://github.com/samwhelp/biglinux-adjustment/blob/main/prototype/keybind/kdebiglinux/modern/kglobalshortcutsrc#L48)
 
 | Keybind           | Action        | Command             |
 | ----------------- | ------------ | -------------------- |
-| `Alt + Shift + x`  | Show Exit Panel |  |
-| `Alt + Ctrl + Delete`  | Show Exit Panel |  |
+| `Alt + Shift + x`  | Show Exit Panel | `Log Out` |
+| `Alt + Ctrl + Delete`  | Show Exit Panel | `Log Out` |
 
 
 ## Screen Lock
@@ -37,7 +37,7 @@ grand_parent: Config
 
 | Keybind           | Action        | Command             |
 | ----------------- | ------------ | -------------------- |
-| `Alt + Shift + z`  | Show Screen Lock Panel |  |
+| `Alt + Shift + z`  | Show Screen Lock Panel | `Lock Session` |
 
 
 ## Sleep
@@ -46,7 +46,7 @@ grand_parent: Config
 
 | Keybind           | Action        | Command             |
 | ----------------- | ------------ | -------------------- |
-| `Alt + Ctrl + z`  | Sleep |  |
+| `Alt + Ctrl + z`  | Suspend | `Sleep` |
 
 
 ## Toggle Overview
