@@ -18,7 +18,7 @@ grand_parent: Config
 
 | Keybind           | Action        | Command             |
 | ----------------- | ------------ | -------------------- |
-| `Win + d`  | Toggle Show Desktop | `Show Desktop` |
+| `Win + d`  | Toggle Show Desktop | `Show Desktop=` |
 
 
 ## Logout
@@ -27,43 +27,43 @@ grand_parent: Config
 
 | Keybind           | Action        | Command             |
 | ----------------- | ------------ | -------------------- |
-| `Alt + Shift + x`  | Show Exit Panel | `Log Out` |
-| `Alt + Ctrl + Delete`  | Show Exit Panel | `Log Out` |
+| `Alt + Shift + x`  | Show Exit Panel | `Log Out=` |
+| `Alt + Ctrl + Delete`  | Show Exit Panel | `Log Out=` |
 
 
 ## Screen Lock
 
-* [config snippet](https://github.com/samwhelp/biglinux-adjustment/blob/main/prototype/keybind/kdebiglinux/modern/kglobalshortcutsrc#L49)
+* [config snippet](https://github.com/samwhelp/biglinux-adjustment/blob/main/prototype/keybind/kdebiglinux/modern/kglobalshortcutsrc#L47)
 
 | Keybind           | Action        | Command             |
 | ----------------- | ------------ | -------------------- |
-| `Alt + Shift + z`  | Show Screen Lock Panel | `Lock Session` |
+| `Alt + Shift + z`  | Show Screen Lock Panel | `Lock Session=` |
 
 
 ## Sleep
 
-* [config snippet](https://github.com/samwhelp/biglinux-adjustment/blob/main/prototype/keybind/kdebiglinux/modern/kglobalshortcutsrc#L314)
+* [config snippet](https://github.com/samwhelp/biglinux-adjustment/blob/main/prototype/keybind/kdebiglinux/modern/kglobalshortcutsrc#L244)
 
 | Keybind           | Action        | Command             |
 | ----------------- | ------------ | -------------------- |
-| `Alt + Ctrl + z`  | Suspend | `Sleep` |
+| `Alt + Ctrl + z`  | Suspend | `Sleep=` |
 
 
 ## Toggle Overview
 
-* [config snippet](https://github.com/samwhelp/biglinux-adjustment/blob/main/prototype/keybind/kdebiglinux/modern/kglobalshortcutsrc#L72)
+* [config snippet](https://github.com/samwhelp/biglinux-adjustment/blob/main/prototype/keybind/kdebiglinux/modern/kglobalshortcutsrc#L69)
 
 | Keybind           | Action        | Command             |
 | ----------------- | ------------ | -------------------- |
-| `Meta + grave`  | Toggle Overview | `Overview` |
+| `Meta + grave`  | Toggle Overview | `Overview=` |
 
 > grave means `
 
 
 ## Toggle Present Windows
 
-* [config snippet](https://github.com/samwhelp/biglinux-adjustment/blob/main/prototype/keybind/kdebiglinux/modern/kglobalshortcutsrc#L58)
+* [config snippet](https://github.com/samwhelp/biglinux-adjustment/blob/main/prototype/keybind/kdebiglinux/modern/kglobalshortcutsrc#L56)
 
 | Keybind           | Action        | Command             |
 | ----------------- | ------------ | -------------------- |
-| `Meta + Tab`  | Toggle Present Windows (Current desktop) | `Expose` |
+| `Meta + Tab`  | Toggle Present Windows (Current desktop) | `Expose=` |
