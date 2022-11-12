@@ -141,6 +141,13 @@ kde_config_install_kde_launcher () {
 
 	echo
 }
+
+##
+## launchers=preferred://browser,preferred://filemanager,applications:org.gnome.Calculator.desktop,file:///usr/share/applications/libreoffice-writer.desktop,applications:org.kde.kate.desktop,applications:bigtts.desktop
+##
+
+
+
 ##
 ### Tail: kde / launcher
 ################################################################################
