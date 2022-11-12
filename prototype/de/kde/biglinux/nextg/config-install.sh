@@ -36,6 +36,80 @@ kde_config_install_kde_keybind () {
 
 
 ################################################################################
+### Head: kde / keybind
+##
+kde_config_install_kde_keybind () {
+
+	kde_global_shortcuts_server_stop
+	kde_config_install_kde_keybind_raw
+	kde_global_shortcuts_server_start
+
+}
+##
+### Tail: kde / keybind
+################################################################################
+
+
+################################################################################
+### Head: kde / global shortcuts server
+##
+kde_global_shortcuts_server_stop () {
+
+	echo
+	echo "##"
+	echo "## Prepare: kde_global_shortcuts_server_stop"
+	echo "##"
+	echo
+
+
+	echo "systemctl --user stop plasma-kglobalaccel.service"
+	systemctl --user stop plasma-kglobalaccel.service
+
+
+	echo
+}
+
+kde_global_shortcuts_server_start () {
+
+	echo
+	echo "##"
+	echo "## Prepare: kde_global_shortcuts_server_start"
+	echo "##"
+	echo
+
+
+	echo "systemctl --user start plasma-kglobalaccel.service"
+	systemctl --user start plasma-kglobalaccel.service
+
+
+	echo
+}
+
+kde_global_shortcuts_server_restart () {
+	#kde_global_shortcuts_server_stop
+	#kde_global_shortcuts_server_start
+
+
+	echo
+	echo "##"
+	echo "## Prepare: kde_global_shortcuts_server_stop"
+	echo "##"
+	echo
+
+
+	echo "systemctl --user restart plasma-kglobalaccel.service"
+	systemctl --user restart plasma-kglobalaccel.service
+
+
+	echo
+
+}
+##
+### Tail: kde / global shortcuts server
+################################################################################
+
+
+################################################################################
 ### Head: kde / wallpaper
 ##
 kde_config_install_kde_wallpaper () {
