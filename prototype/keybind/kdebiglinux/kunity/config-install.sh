@@ -8,9 +8,7 @@ set -e
 ##
 kde_config_install () {
 
-	kde_global_shortcuts_server_stop
 	kde_config_install_kde_keybind
-	kde_global_shortcuts_server_start
 
 }
 ##
@@ -22,6 +20,14 @@ kde_config_install () {
 ### Head: kde / keybind
 ##
 kde_config_install_kde_keybind () {
+
+	kde_global_shortcuts_server_stop
+	kde_config_install_kde_keybind_raw
+	kde_global_shortcuts_server_start
+
+}
+
+kde_config_install_kde_keybind_raw () {
 
 	echo
 	echo "##"
@@ -40,7 +46,6 @@ kde_config_install_kde_keybind () {
 
 	echo
 }
-
 ##
 ### Tail: kde / keybind
 ################################################################################
