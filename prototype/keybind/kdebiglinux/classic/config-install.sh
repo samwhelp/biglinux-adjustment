@@ -93,8 +93,8 @@ kde_global_shortcuts_server_restart () {
 	echo
 
 
-	echo "systemctl --user resart plasma-kglobalaccel.service"
-	systemctl --user resart plasma-kglobalaccel.service
+	echo "systemctl --user restart plasma-kglobalaccel.service"
+	systemctl --user restart plasma-kglobalaccel.service
 
 
 	echo
