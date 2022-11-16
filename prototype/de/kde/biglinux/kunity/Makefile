@@ -27,3 +27,8 @@ config-install:
 kdebiglinux-config-install:
 	@./kdebiglinux-config-install.sh
 .PHONY: kdebiglinux-config-install
+
+
+desktop-layout:
+	@./desktop-layout.sh
+.PHONY: desktop-layout
