@@ -18,6 +18,9 @@ grand_parent: Config
 * [System](#system)
 * [Application Launch](#application-launch)
 * [Window Control](#window-control)
+* [Workspace Control](#workspace-control)
+* [Volume Control](#volume-control)
+
 
 
 ## Config File
@@ -47,6 +50,13 @@ grand_parent: Config
 | --- |
 | [Window Control](keybind/window-control) |
 | [Window Focus](keybind/window-focus) |
+
+
+## Workspace Control
+
+| Subject |
+| --- |
+| [Workspace Switch](keybind/workspace-switch) |
 
 
 ## Volume Control
