@@ -46,6 +46,7 @@ grand_parent: Config
 | Subject |
 | --- |
 | [Window Control](keybind/window-control) |
+| [Window Focus](keybind/window-focus) |
 
 
 ## Volume Control
