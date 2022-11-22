@@ -46,3 +46,10 @@ grand_parent: Config
 | Subject |
 | --- |
 | [Window Control](keybind/window-control) |
+
+
+## Volume Control
+
+| Subject |
+| --- |
+| [Volume Control](keybind/volume-control) |
