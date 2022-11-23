@@ -285,6 +285,10 @@ WindowUnderCursorScreenShot=Meta+Ctrl+Print,Meta+Ctrl+Print,Capture Window Under
 _k_friendly_name=Spectacle
 _launch=Print,Print,Spectacle
 
+[org.kde.yakuake.desktop]
+_k_friendly_name=Yakuake
+_launch=Meta+F2\tAlt+Shift+Y,none,Yakuake
+
 [org_kde_powerdevil]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Decrease Keyboard Brightness
 Decrease Screen Brightness=Monitor Brightness Down\tAlt+{,Monitor Brightness Down,Decrease Screen Brightness
@@ -349,4 +353,4 @@ _k_friendly_name=Wacom Tablet
 
 [yakuake]
 _k_friendly_name=Yakuake
-toggle-window-state=Alt+Shift+Y\tF12\tMeta+F2,F12,Open/Retract Yakuake
+toggle-window-state=none,F12,Open/Retract Yakuake
